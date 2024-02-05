@@ -2,8 +2,10 @@
 
 function TextArea(){
     return(
-        <form>
-            <input type="text" className="" id="" />
+        <form className="">
+            <label htmlFor="tetxArea" className="">Text</label>
+            <input type="text" className="border-2 rounded mx-2
+            " id="textArea" />
         </form>
     )
 }
