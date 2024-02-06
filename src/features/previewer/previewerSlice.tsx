@@ -1,6 +1,4 @@
 import { createSlice } from "@reduxjs/toolkit";
-import { PayloadAction } from "@reduxjs/toolkit";
-
 export interface PreviewerState {
     text: string;
 }
