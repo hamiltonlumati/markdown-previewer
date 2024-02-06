@@ -12,7 +12,7 @@ export const previewerSlice = createSlice({
     initialState,
     reducers: {
         preview: (state) =>{
-            state.text = "Vida"
+            state.text = (document.getElementById('textArea') as HTMLInputElement).value;
         }
     }
 })
