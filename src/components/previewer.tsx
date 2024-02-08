@@ -7,7 +7,7 @@ function Previewer(){
 
     const text = useSelector((state: RootState) => state.previewer.text)
     return(
-        <div>
+        <div className="previewer">
             <Markdown remarkPlugins={[remarkBreaks]}>
                 {text}
             </Markdown>

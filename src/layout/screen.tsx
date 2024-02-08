@@ -3,7 +3,7 @@ import Previewer from "../components/previewer";
 
 function Screen(){
     return(
-        <div>
+        <div id="screen">
             <TextArea />
             <Previewer />
         </div>

@@ -34,3 +34,24 @@ ul{
 ol{
     list-style-type: decimal;
 }
+
+#root{
+    padding: 0px auto 0px auto;
+}
+
+#screen{
+    width: 75%;
+    margin: auto;
+    padding: 10px;
+}
+
+#form{
+    margin: auto;
+}
+
+#textArea{
+    width: 50%;
+    height: 200px;
+    margin: auto;
+}
+

@@ -5,8 +5,7 @@ import { useDispatch } from "react-redux";
 function TextArea(){
     const dispatch = useDispatch();
     return(
-        <form className="">
-            <label htmlFor="tetxArea" className="">Text</label>
+        <form id="form">
             <textarea 
                 className= "border-2 rounded mx-2 w-1/2 h-36" 
                 id= "textArea"
