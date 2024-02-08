@@ -4,7 +4,7 @@ export interface PreviewerState {
 }
 
 const initialState: PreviewerState = {
-    text: "Vida",
+    text: 'Vida',
 }
 
 export const previewerSlice = createSlice({

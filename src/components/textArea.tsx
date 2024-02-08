@@ -12,9 +12,6 @@ function TextArea(){
                 id= "textArea"
                 onChange={() => dispatch(preview())}
             />
-            <button type="submit" className="">
-                Submit
-            </button>
         </form>
     )
 }

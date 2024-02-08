@@ -1,4 +1,5 @@
 /** @type {import('tailwindcss').Config} */
+/** @type {import('tailwindcss').Config} */
 export default {
   content: [
     "./index.html",
@@ -29,6 +30,10 @@ export default {
       sans: ['Graphik', 'sans-serif'],
       serif: ['Merriweather', 'serif'],
     },
+    safelist: [
+      'list-decimal',
+      'list-disc'
+    ],
     extend: {
       spacing: {
         '128': '32rem',
@@ -36,9 +41,15 @@ export default {
       },
       borderRadius: {
         '4xl': '2rem',
+      },
+      listStyleType: {
+        'decimal': 'decimal'
       }
     }
   },
-  plugins: [],
+  plugins: [
+    require('@tailwindcss/typography'),
+    // ...
+  ],
+  corePlugins: []
 }
-
