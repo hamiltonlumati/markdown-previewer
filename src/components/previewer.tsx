@@ -1,7 +1,6 @@
 import type { RootState } from "../app/store";
 import { useSelector } from "react-redux";
 import Markdown from "react-markdown";
-import ay11emoji from "@fec/remark-a11y-emoji";
 import remarkBreaks from "remark-breaks";
 import remarkBehead from "remark-behead";
 

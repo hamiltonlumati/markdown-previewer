@@ -23,7 +23,6 @@
     "remark-title": "^1.0.4"
   },
   "devDependencies": {
-    "@fec/remark-a11y-emoji": "^4.0.2",
     "@types/react": "^18.2.43",
     "@types/react-dom": "^18.2.17",
     "@typescript-eslint/eslint-plugin": "^6.14.0",
