@@ -2,56 +2,94 @@
 @tailwind components;
 @tailwind utilities;
 
-
-h1{
-    font-size: 40px;
-}
-
-h2{
-    font-size: 35px;
-}
-
-h3{
-    font-size: 30px;
-}
-
-h4{
-    font-size: 25px;
-}
-
-h5{
-    font-size: 20px;
-}
-
-h6{
-    font-size: 15px;
-}
-
-ul{
-    list-style-type: disc !important;
-}
-
-ol{
-    list-style-type: decimal;
-}
-
-#root{
-    padding: 0px auto 0px auto;
+body{
+    background-color: #eee5e9;
 }
 
 #screen{
     width: 75%;
     margin: auto;
-    padding: 10px;
+    padding-top: 10px;
 }
 
-#form{
-    margin: auto;
+.textAreaTitle{
+    background-color: #7c7c7c;
+    width: 90%;
+    padding: 10px;
+    margin: 10px 0px 0px 10px;
+    border-width: 3px;
+
 }
 
 #textArea{
-    width: 50%;
+    margin: 0px 10px;
+    width: 90%;
     height: 200px;
-    margin: auto;
+    padding: 10px;
+    border-width: 0px;
+    border-radius: 0px 0px 5px  5px;
 }
 
+#previewer{
+    padding: 10px;
+    width:90%;
+    margin: 0px 10px;
+    border-radius: 0px 0px 5px  5px;
+    background-color: #ffffff;
+}
+
+#previewer img{
+    width: 100%;
+}
+
+#previewer h1{
+    font-size: 40px;
+}
+
+#previewer h2{
+    font-size: 35px;
+}
+
+#previewer h3{
+    font-size: 30px;
+}
+
+#previewer h4{
+    font-size: 25px;
+}
+
+#previewer h5{
+    font-size: 20px;
+}
+
+#previewer h6{
+    font-size: 15px;
+}
+
+#previewer ul{
+    list-style-type: disc;
+}
+
+#previewer ol{
+    list-style-type: decimal;
+}
+#previewer blockquote{
+    border-left: solid;
+    padding-left: 15px;
+    margin-left: 15px;
+    border-color: #52dee5;
+}
+
+#previewer pre{
+    padding: 10px;
+    background-color: #92dce5;
+    border-radius: 5px;
+
+}
+
+#previewer p code{
+    background-color: #92dce5;
+    border-radius: 5px;
+    padding: 2px;
+
+}
