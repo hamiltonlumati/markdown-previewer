@@ -13,7 +13,7 @@ export const previewerSlice = createSlice({
     initialState,
     reducers: {
         preview: (state) =>{
-            state.text = (document.getElementById('textArea') as HTMLInputElement).value;
+            state.text = (document.getElementById('editor') as HTMLInputElement).value;
         }
     }
 })
