@@ -4,7 +4,9 @@
 
 body{
     background-color: #eee5e9;
-}
+    font-family: 'Inter', sans-serif;}
+
+
 
 #screen{
     width: 75%;
@@ -13,11 +15,13 @@ body{
 }
 
 .textAreaTitle{
-    background-color: #7c7c7c;
+    background-color: #383d3b;
     width: 90%;
     padding: 10px;
     margin: 10px 0px 0px 10px;
     border-width: 3px;
+    color: #ffffff;
+    font-size: 20px;
 
 }
 
@@ -84,12 +88,26 @@ body{
     padding: 10px;
     background-color: #92dce5;
     border-radius: 5px;
-
+    font-family: 'sans-serif';
+    width: fit-content;
 }
 
 #previewer p code{
     background-color: #92dce5;
     border-radius: 5px;
-    padding: 2px;
+    padding: 2px 4px;
+    font-family: 'sans-serif';
+}
 
+#author{
+    text-align: center;
+    color: #383d3b;
+}
+
+th, td{
+    border: 2px solid;
+    padding: 6px
+}
+table{
+    border-collapse: collapse;
 }
