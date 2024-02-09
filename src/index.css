@@ -25,7 +25,7 @@ body{
 
 }
 
-#textArea{
+#editor{
     margin: 0px 10px;
     width: 90%;
     height: 200px;
@@ -34,7 +34,7 @@ body{
     border-radius: 0px 0px 5px  5px;
 }
 
-#previewer{
+#preview{
     padding: 10px;
     width:90%;
     margin: 0px 10px;
@@ -42,49 +42,49 @@ body{
     background-color: #ffffff;
 }
 
-#previewer img{
+#preview img{
     width: 100%;
 }
 
-#previewer h1{
+#preview h1{
     font-size: 40px;
 }
 
-#previewer h2{
+#preview h2{
     font-size: 35px;
 }
 
-#previewer h3{
+#preview h3{
     font-size: 30px;
 }
 
-#previewer h4{
+#preview h4{
     font-size: 25px;
 }
 
-#previewer h5{
+#preview h5{
     font-size: 20px;
 }
 
-#previewer h6{
+#preview h6{
     font-size: 15px;
 }
 
-#previewer ul{
+#preview ul{
     list-style-type: disc;
 }
 
-#previewer ol{
+#preview ol{
     list-style-type: decimal;
 }
-#previewer blockquote{
+#preview blockquote{
     border-left: solid;
     padding-left: 15px;
     margin-left: 15px;
     border-color: #52dee5;
 }
 
-#previewer pre{
+#preview pre{
     padding: 10px;
     background-color: #92dce5;
     border-radius: 5px;
@@ -92,7 +92,7 @@ body{
     width: fit-content;
 }
 
-#previewer p code{
+#preview p code{
     background-color: #92dce5;
     border-radius: 5px;
     padding: 2px 4px;

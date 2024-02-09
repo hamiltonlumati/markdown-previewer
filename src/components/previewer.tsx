@@ -13,7 +13,7 @@ function Previewer(){
                 Previewer
             </div>
 
-            <div className="previewer" id="previewer">
+            <div className="previewer" id="preview">
                 <Markdown remarkPlugins={[remarkBreaks, remarkGfm]}>
                     {text}
                 </Markdown>

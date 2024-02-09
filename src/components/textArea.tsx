@@ -17,7 +17,7 @@ function TextArea(){
             </div>
             <textarea 
                 className= "border-2 rounded mx-2 w-1/2 h-36" 
-                id= "textArea"
+                id= "editor"
                 onChange={() => dispatch(preview())}
             >
                 {text}
